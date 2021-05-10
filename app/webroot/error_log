@@ -1,0 +1,319 @@
+[06-Oct-2019 02:08:30 America/New_York] PHP Fatal error:  Cannot use 'String' as class name as it is reserved in /home/n6daidnfj0zu/public_html/demo/hosptial-management/lib/Cake/Utility/String.php on line 24
+[06-Oct-2019 03:46:44 America/New_York] PHP Fatal error:  During class fetch: Uncaught ParseError: syntax error, unexpected 'App' (T_STRING) in /home/n6daidnfj0zu/public_html/demo/hosptial-management/app/Controller/AppController.php:1
+Stack trace:
+#0 [internal function]: App::load('AppController')
+#1 /home/n6daidnfj0zu/public_html/demo/hosptial-management/app/Controller/PatientsController.php(12): spl_autoload_call('AppController')
+#2 /home/n6daidnfj0zu/public_html/demo/hosptial-management/lib/Cake/Core/App.php(567): include('/home/n6daidnfj...')
+#3 [internal function]: App::load('PatientsControl...')
+#4 [internal function]: spl_autoload_call('PatientsControl...')
+#5 /home/n6daidnfj0zu/public_html/demo/hosptial-management/lib/Cake/Routing/Dispatcher.php(266): class_exists('PatientsControl...')
+#6 /home/n6daidnfj0zu/public_html/demo/hosptial-management/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#7 /home/n6daidnfj0zu/public_html/demo/hosptial-management/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object( in /home/n6daidnfj0zu/public_html/demo/hosptial-management/app/Controller/PatientsController.php on line 12
+[14-Mar-2020 10:25:08 America/New_York] PHP Fatal error:  Uncaught FatalErrorException: [CakeSessionException] Unable to configure the session, setting session.use_trans_sid failed.
+#0 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(697): CakeSession::_configureSession()
+#1 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(204): CakeSession::_startSession()
+#2 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(233): CakeSession::start()
+#3 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/Helper/SessionHelper.php(134): CakeSession::check('Message.flash')
+#4 /home/n6daidnfj0zu/public_html/demo/21secawards/app/View/Layouts/error.ctp(44): SessionHelper->flash()
+#5 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(971): include('/home/n6daidnfj...')
+#6 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(933): View->_evaluate('/home/n6daidnfj...', Array)
+#7 /home/n6daidnfj0zu/public_html/demo/21secawa in /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Error/ErrorHandler.php on line 138
+[15-Mar-2020 12:11:58 America/New_York] PHP Fatal error:  Uncaught FatalErrorException: [CakeSessionException] Unable to configure the session, setting session.use_trans_sid failed.
+#0 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(697): CakeSession::_configureSession()
+#1 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(204): CakeSession::_startSession()
+#2 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(233): CakeSession::start()
+#3 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/Helper/SessionHelper.php(134): CakeSession::check('Message.flash')
+#4 /home/n6daidnfj0zu/public_html/demo/21secawards/app/View/Layouts/error.ctp(44): SessionHelper->flash()
+#5 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(971): include('/home/n6daidnfj...')
+#6 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(933): View->_evaluate('/home/n6daidnfj...', Array)
+#7 /home/n6daidnfj0zu/public_html/demo/21secawa in /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Error/ErrorHandler.php on line 138
+[15-Mar-2020 12:13:51 America/New_York] PHP Fatal error:  Uncaught FatalErrorException: [CakeSessionException] Unable to configure the session, setting session.use_trans_sid failed.
+#0 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(697): CakeSession::_configureSession()
+#1 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(204): CakeSession::_startSession()
+#2 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(233): CakeSession::start()
+#3 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/Helper/SessionHelper.php(134): CakeSession::check('Message.flash')
+#4 /home/n6daidnfj0zu/public_html/demo/21secawards/app/View/Layouts/error.ctp(44): SessionHelper->flash()
+#5 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(971): include('/home/n6daidnfj...')
+#6 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(933): View->_evaluate('/home/n6daidnfj...', Array)
+#7 /home/n6daidnfj0zu/public_html/demo/21secawa in /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Error/ErrorHandler.php on line 138
+[15-Mar-2020 13:43:46 America/New_York] PHP Fatal error:  Uncaught FatalErrorException: [CakeSessionException] Unable to configure the session, setting session.use_trans_sid failed.
+#0 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(697): CakeSession::_configureSession()
+#1 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(204): CakeSession::_startSession()
+#2 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(233): CakeSession::start()
+#3 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/Helper/SessionHelper.php(134): CakeSession::check('Message.flash')
+#4 /home/n6daidnfj0zu/public_html/demo/21secawards/app/View/Layouts/error.ctp(44): SessionHelper->flash()
+#5 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(971): include('/home/n6daidnfj...')
+#6 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(933): View->_evaluate('/home/n6daidnfj...', Array)
+#7 /home/n6daidnfj0zu/public_html/demo/21secawa in /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Error/ErrorHandler.php on line 138
+[15-Mar-2020 13:43:58 America/New_York] PHP Fatal error:  Uncaught FatalErrorException: [CakeSessionException] Unable to configure the session, setting session.use_trans_sid failed.
+#0 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(697): CakeSession::_configureSession()
+#1 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(204): CakeSession::_startSession()
+#2 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(233): CakeSession::start()
+#3 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/Helper/SessionHelper.php(134): CakeSession::check('Message.flash')
+#4 /home/n6daidnfj0zu/public_html/demo/21secawards/app/View/Layouts/error.ctp(44): SessionHelper->flash()
+#5 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(971): include('/home/n6daidnfj...')
+#6 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(933): View->_evaluate('/home/n6daidnfj...', Array)
+#7 /home/n6daidnfj0zu/public_html/demo/21secawa in /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Error/ErrorHandler.php on line 138
+[15-Mar-2020 13:44:03 America/New_York] PHP Fatal error:  Uncaught FatalErrorException: [CakeSessionException] Unable to configure the session, setting session.use_trans_sid failed.
+#0 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(697): CakeSession::_configureSession()
+#1 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(204): CakeSession::_startSession()
+#2 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(233): CakeSession::start()
+#3 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/Helper/SessionHelper.php(134): CakeSession::check('Message.flash')
+#4 /home/n6daidnfj0zu/public_html/demo/21secawards/app/View/Layouts/error.ctp(44): SessionHelper->flash()
+#5 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(971): include('/home/n6daidnfj...')
+#6 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(933): View->_evaluate('/home/n6daidnfj...', Array)
+#7 /home/n6daidnfj0zu/public_html/demo/21secawa in /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Error/ErrorHandler.php on line 138
+[15-Mar-2020 13:44:31 America/New_York] PHP Fatal error:  Uncaught FatalErrorException: [CakeSessionException] Unable to configure the session, setting session.use_trans_sid failed.
+#0 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(697): CakeSession::_configureSession()
+#1 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(204): CakeSession::_startSession()
+#2 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(233): CakeSession::start()
+#3 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/Helper/SessionHelper.php(134): CakeSession::check('Message.flash')
+#4 /home/n6daidnfj0zu/public_html/demo/21secawards/app/View/Layouts/error.ctp(44): SessionHelper->flash()
+#5 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(971): include('/home/n6daidnfj...')
+#6 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(933): View->_evaluate('/home/n6daidnfj...', Array)
+#7 /home/n6daidnfj0zu/public_html/demo/21secawa in /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Error/ErrorHandler.php on line 138
+[15-Mar-2020 13:44:34 America/New_York] PHP Fatal error:  Uncaught FatalErrorException: [CakeSessionException] Unable to configure the session, setting session.use_trans_sid failed.
+#0 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(697): CakeSession::_configureSession()
+#1 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(204): CakeSession::_startSession()
+#2 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(233): CakeSession::start()
+#3 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/Helper/SessionHelper.php(134): CakeSession::check('Message.flash')
+#4 /home/n6daidnfj0zu/public_html/demo/21secawards/app/View/Layouts/error.ctp(44): SessionHelper->flash()
+#5 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(971): include('/home/n6daidnfj...')
+#6 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(933): View->_evaluate('/home/n6daidnfj...', Array)
+#7 /home/n6daidnfj0zu/public_html/demo/21secawa in /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Error/ErrorHandler.php on line 138
+[15-Mar-2020 13:44:40 America/New_York] PHP Fatal error:  Uncaught FatalErrorException: [CakeSessionException] Unable to configure the session, setting session.use_trans_sid failed.
+#0 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(697): CakeSession::_configureSession()
+#1 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(204): CakeSession::_startSession()
+#2 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(233): CakeSession::start()
+#3 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/Helper/SessionHelper.php(134): CakeSession::check('Message.flash')
+#4 /home/n6daidnfj0zu/public_html/demo/21secawards/app/View/Layouts/error.ctp(44): SessionHelper->flash()
+#5 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(971): include('/home/n6daidnfj...')
+#6 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(933): View->_evaluate('/home/n6daidnfj...', Array)
+#7 /home/n6daidnfj0zu/public_html/demo/21secawa in /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Error/ErrorHandler.php on line 138
+[15-Mar-2020 13:44:47 America/New_York] PHP Fatal error:  Uncaught FatalErrorException: [CakeSessionException] Unable to configure the session, setting session.use_trans_sid failed.
+#0 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(697): CakeSession::_configureSession()
+#1 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(204): CakeSession::_startSession()
+#2 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(233): CakeSession::start()
+#3 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/Helper/SessionHelper.php(134): CakeSession::check('Message.flash')
+#4 /home/n6daidnfj0zu/public_html/demo/21secawards/app/View/Layouts/error.ctp(44): SessionHelper->flash()
+#5 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(971): include('/home/n6daidnfj...')
+#6 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(933): View->_evaluate('/home/n6daidnfj...', Array)
+#7 /home/n6daidnfj0zu/public_html/demo/21secawa in /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Error/ErrorHandler.php on line 138
+[15-Mar-2020 13:44:53 America/New_York] PHP Fatal error:  Uncaught FatalErrorException: [CakeSessionException] Unable to configure the session, setting session.use_trans_sid failed.
+#0 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(697): CakeSession::_configureSession()
+#1 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(204): CakeSession::_startSession()
+#2 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(233): CakeSession::start()
+#3 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/Helper/SessionHelper.php(134): CakeSession::check('Message.flash')
+#4 /home/n6daidnfj0zu/public_html/demo/21secawards/app/View/Layouts/error.ctp(44): SessionHelper->flash()
+#5 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(971): include('/home/n6daidnfj...')
+#6 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(933): View->_evaluate('/home/n6daidnfj...', Array)
+#7 /home/n6daidnfj0zu/public_html/demo/21secawa in /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Error/ErrorHandler.php on line 138
+[15-Mar-2020 13:45:28 America/New_York] PHP Fatal error:  Uncaught FatalErrorException: [CakeSessionException] Unable to configure the session, setting session.use_trans_sid failed.
+#0 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(697): CakeSession::_configureSession()
+#1 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(204): CakeSession::_startSession()
+#2 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(233): CakeSession::start()
+#3 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/Helper/SessionHelper.php(134): CakeSession::check('Message.flash')
+#4 /home/n6daidnfj0zu/public_html/demo/21secawards/app/View/Layouts/error.ctp(44): SessionHelper->flash()
+#5 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(971): include('/home/n6daidnfj...')
+#6 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(933): View->_evaluate('/home/n6daidnfj...', Array)
+#7 /home/n6daidnfj0zu/public_html/demo/21secawa in /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Error/ErrorHandler.php on line 138
+[15-Mar-2020 13:58:56 America/New_York] PHP Fatal error:  Uncaught FatalErrorException: [CakeSessionException] Unable to configure the session, setting session.use_trans_sid failed.
+#0 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(697): CakeSession::_configureSession()
+#1 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(204): CakeSession::_startSession()
+#2 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(233): CakeSession::start()
+#3 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/Helper/SessionHelper.php(134): CakeSession::check('Message.flash')
+#4 /home/n6daidnfj0zu/public_html/demo/21secawards/app/View/Layouts/error.ctp(44): SessionHelper->flash()
+#5 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(971): include('/home/n6daidnfj...')
+#6 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(933): View->_evaluate('/home/n6daidnfj...', Array)
+#7 /home/n6daidnfj0zu/public_html/demo/21secawa in /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Error/ErrorHandler.php on line 138
+[15-Mar-2020 13:59:04 America/New_York] PHP Fatal error:  Uncaught FatalErrorException: [CakeSessionException] Unable to configure the session, setting session.use_trans_sid failed.
+#0 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(697): CakeSession::_configureSession()
+#1 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(204): CakeSession::_startSession()
+#2 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(233): CakeSession::start()
+#3 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/Helper/SessionHelper.php(134): CakeSession::check('Message.flash')
+#4 /home/n6daidnfj0zu/public_html/demo/21secawards/app/View/Layouts/error.ctp(44): SessionHelper->flash()
+#5 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(971): include('/home/n6daidnfj...')
+#6 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(933): View->_evaluate('/home/n6daidnfj...', Array)
+#7 /home/n6daidnfj0zu/public_html/demo/21secawa in /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Error/ErrorHandler.php on line 138
+[15-Mar-2020 13:59:44 America/New_York] PHP Fatal error:  Uncaught FatalErrorException: [CakeSessionException] Unable to configure the session, setting session.use_trans_sid failed.
+#0 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(697): CakeSession::_configureSession()
+#1 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(204): CakeSession::_startSession()
+#2 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(233): CakeSession::start()
+#3 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/Helper/SessionHelper.php(134): CakeSession::check('Message.flash')
+#4 /home/n6daidnfj0zu/public_html/demo/21secawards/app/View/Layouts/error.ctp(44): SessionHelper->flash()
+#5 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(971): include('/home/n6daidnfj...')
+#6 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(933): View->_evaluate('/home/n6daidnfj...', Array)
+#7 /home/n6daidnfj0zu/public_html/demo/21secawa in /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Error/ErrorHandler.php on line 138
+[15-Mar-2020 13:59:49 America/New_York] PHP Fatal error:  Uncaught FatalErrorException: [CakeSessionException] Unable to configure the session, setting session.use_trans_sid failed.
+#0 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(697): CakeSession::_configureSession()
+#1 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(204): CakeSession::_startSession()
+#2 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(233): CakeSession::start()
+#3 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/Helper/SessionHelper.php(134): CakeSession::check('Message.flash')
+#4 /home/n6daidnfj0zu/public_html/demo/21secawards/app/View/Layouts/error.ctp(44): SessionHelper->flash()
+#5 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(971): include('/home/n6daidnfj...')
+#6 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(933): View->_evaluate('/home/n6daidnfj...', Array)
+#7 /home/n6daidnfj0zu/public_html/demo/21secawa in /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Error/ErrorHandler.php on line 138
+[16-Mar-2020 04:16:40 America/New_York] PHP Fatal error:  Uncaught FatalErrorException: [CakeSessionException] Unable to configure the session, setting session.use_trans_sid failed.
+#0 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(697): CakeSession::_configureSession()
+#1 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(204): CakeSession::_startSession()
+#2 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(233): CakeSession::start()
+#3 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/Helper/SessionHelper.php(134): CakeSession::check('Message.flash')
+#4 /home/n6daidnfj0zu/public_html/demo/21secawards/app/View/Layouts/error.ctp(44): SessionHelper->flash()
+#5 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(971): include('/home/n6daidnfj...')
+#6 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(933): View->_evaluate('/home/n6daidnfj...', Array)
+#7 /home/n6daidnfj0zu/public_html/demo/21secawa in /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Error/ErrorHandler.php on line 138
+[16-Mar-2020 04:16:44 America/New_York] PHP Fatal error:  Uncaught FatalErrorException: [CakeSessionException] Unable to configure the session, setting session.use_trans_sid failed.
+#0 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(697): CakeSession::_configureSession()
+#1 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(204): CakeSession::_startSession()
+#2 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(233): CakeSession::start()
+#3 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/Helper/SessionHelper.php(134): CakeSession::check('Message.flash')
+#4 /home/n6daidnfj0zu/public_html/demo/21secawards/app/View/Layouts/error.ctp(44): SessionHelper->flash()
+#5 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(971): include('/home/n6daidnfj...')
+#6 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(933): View->_evaluate('/home/n6daidnfj...', Array)
+#7 /home/n6daidnfj0zu/public_html/demo/21secawa in /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Error/ErrorHandler.php on line 138
+[16-Mar-2020 06:37:35 America/New_York] PHP Fatal error:  Uncaught FatalErrorException: [CakeSessionException] Unable to configure the session, setting session.use_trans_sid failed.
+#0 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(697): CakeSession::_configureSession()
+#1 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(204): CakeSession::_startSession()
+#2 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(233): CakeSession::start()
+#3 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/Helper/SessionHelper.php(134): CakeSession::check('Message.flash')
+#4 /home/n6daidnfj0zu/public_html/demo/21secawards/app/View/Layouts/error.ctp(44): SessionHelper->flash()
+#5 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(971): include('/home/n6daidnfj...')
+#6 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(933): View->_evaluate('/home/n6daidnfj...', Array)
+#7 /home/n6daidnfj0zu/public_html/demo/21secawa in /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Error/ErrorHandler.php on line 138
+[16-Mar-2020 08:00:11 America/New_York] PHP Fatal error:  Uncaught FatalErrorException: [CakeSessionException] Unable to configure the session, setting session.use_trans_sid failed.
+#0 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(697): CakeSession::_configureSession()
+#1 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(204): CakeSession::_startSession()
+#2 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(233): CakeSession::start()
+#3 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/Helper/SessionHelper.php(134): CakeSession::check('Message.flash')
+#4 /home/n6daidnfj0zu/public_html/demo/21secawards/app/View/Layouts/error.ctp(44): SessionHelper->flash()
+#5 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(971): include('/home/n6daidnfj...')
+#6 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(933): View->_evaluate('/home/n6daidnfj...', Array)
+#7 /home/n6daidnfj0zu/public_html/demo/21secawa in /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Error/ErrorHandler.php on line 138
+[16-Mar-2020 08:00:28 America/New_York] PHP Fatal error:  Uncaught FatalErrorException: [CakeSessionException] Unable to configure the session, setting session.use_trans_sid failed.
+#0 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(697): CakeSession::_configureSession()
+#1 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(204): CakeSession::_startSession()
+#2 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(233): CakeSession::start()
+#3 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/Helper/SessionHelper.php(134): CakeSession::check('Message.flash')
+#4 /home/n6daidnfj0zu/public_html/demo/21secawards/app/View/Layouts/error.ctp(44): SessionHelper->flash()
+#5 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(971): include('/home/n6daidnfj...')
+#6 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(933): View->_evaluate('/home/n6daidnfj...', Array)
+#7 /home/n6daidnfj0zu/public_html/demo/21secawa in /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Error/ErrorHandler.php on line 138
+[16-Mar-2020 22:43:59 America/New_York] PHP Fatal error:  Uncaught FatalErrorException: [CakeSessionException] Unable to configure the session, setting session.use_trans_sid failed.
+#0 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(697): CakeSession::_configureSession()
+#1 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(204): CakeSession::_startSession()
+#2 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(233): CakeSession::start()
+#3 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/Helper/SessionHelper.php(134): CakeSession::check('Message.flash')
+#4 /home/n6daidnfj0zu/public_html/demo/21secawards/app/View/Layouts/error.ctp(44): SessionHelper->flash()
+#5 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(971): include('/home/n6daidnfj...')
+#6 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(933): View->_evaluate('/home/n6daidnfj...', Array)
+#7 /home/n6daidnfj0zu/public_html/demo/21secawa in /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Error/ErrorHandler.php on line 138
+[17-Mar-2020 05:53:54 America/New_York] PHP Fatal error:  Uncaught FatalErrorException: [CakeSessionException] Unable to configure the session, setting session.use_trans_sid failed.
+#0 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(697): CakeSession::_configureSession()
+#1 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(204): CakeSession::_startSession()
+#2 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(233): CakeSession::start()
+#3 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/Helper/SessionHelper.php(134): CakeSession::check('Message.flash')
+#4 /home/n6daidnfj0zu/public_html/demo/21secawards/app/View/Layouts/error.ctp(44): SessionHelper->flash()
+#5 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(971): include('/home/n6daidnfj...')
+#6 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(933): View->_evaluate('/home/n6daidnfj...', Array)
+#7 /home/n6daidnfj0zu/public_html/demo/21secawa in /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Error/ErrorHandler.php on line 138
+[20-Mar-2020 12:05:54 America/New_York] PHP Fatal error:  Uncaught FatalErrorException: [CakeSessionException] Unable to configure the session, setting session.use_trans_sid failed.
+#0 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(697): CakeSession::_configureSession()
+#1 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(204): CakeSession::_startSession()
+#2 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(233): CakeSession::start()
+#3 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/Helper/SessionHelper.php(134): CakeSession::check('Message.flash')
+#4 /home/n6daidnfj0zu/public_html/demo/21secawards/app/View/Layouts/error.ctp(44): SessionHelper->flash()
+#5 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(971): include('/home/n6daidnfj...')
+#6 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(933): View->_evaluate('/home/n6daidnfj...', Array)
+#7 /home/n6daidnfj0zu/public_html/demo/21secawa in /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Error/ErrorHandler.php on line 138
+[24-Mar-2020 07:00:32 America/New_York] PHP Fatal error:  require() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required '/home/n6daidnfj0zu/public_html/demo/21secawards/app/vendor/autoload.php' (include_path='/home/n6daidnfj0zu/public_html/demo/21secawards/lib:.:/opt/alt/php72/usr/share/pear') in /home/n6daidnfj0zu/public_html/demo/21secawards/app/Controller/UsersController.php on line 364
+[24-Mar-2020 07:00:59 America/New_York] PHP Fatal error:  require() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required '/home/n6daidnfj0zu/public_html/demo/21secawards/app/vendor/Google/autoload.php' (include_path='/home/n6daidnfj0zu/public_html/demo/21secawards/lib:.:/opt/alt/php72/usr/share/pear') in /home/n6daidnfj0zu/public_html/demo/21secawards/app/Controller/UsersController.php on line 364
+[24-Mar-2020 07:01:56 America/New_York] PHP Fatal error:  require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required '/home/n6daidnfj0zu/public_html/demo/21secawards/app/Vendor/Google/Service/Oauth2.php' (include_path='/home/n6daidnfj0zu/public_html/demo/21secawards/lib:.:/opt/alt/php72/usr/share/pear') in /home/n6daidnfj0zu/public_html/demo/21secawards/app/Controller/UsersController.php on line 366
+[24-Mar-2020 08:56:06 America/New_York] PHP Fatal error:  require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required '/home/n6daidnfj0zu/public_html/demo/21secawards/app/Vendor/Google/Service/Oauth2.php' (include_path='/home/n6daidnfj0zu/public_html/demo/21secawards/lib:.:/opt/alt/php72/usr/share/pear') in /home/n6daidnfj0zu/public_html/demo/21secawards/app/Controller/UsersController.php on line 366
+[24-Mar-2020 10:26:06 America/New_York] PHP Fatal error:  Class 'Google_Service' not found in /home/n6daidnfj0zu/public_html/demo/21secawards/app/Vendor/Google/Service/Oauth2.php on line 31
+[24-Mar-2020 10:36:34 America/New_York] PHP Fatal error:  Class 'Google_Service' not found in /home/n6daidnfj0zu/public_html/demo/21secawards/app/Vendor/Google/Service/Oauth2.php on line 31
+[24-Mar-2020 11:29:56 America/New_York] PHP Fatal error:  require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required '/home/n6daidnfj0zu/public_html/demo/21secawards/app/Vendor/Google/Client.php' (include_path='/home/n6daidnfj0zu/public_html/demo/21secawards/lib:.:/opt/alt/php72/usr/share/pear') in /home/n6daidnfj0zu/public_html/demo/21secawards/app/Controller/UsersController.php on line 368
+[24-Mar-2020 11:32:39 America/New_York] PHP Fatal error:  require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required '../Config/google_login.php' (include_path='/home/n6daidnfj0zu/public_html/demo/21secawards/lib:.:/opt/alt/php72/usr/share/pear') in /home/n6daidnfj0zu/public_html/demo/21secawards/app/Controller/UsersController.php on line 367
+[24-Mar-2020 11:32:42 America/New_York] PHP Fatal error:  require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required '../Config/google_login.php' (include_path='/home/n6daidnfj0zu/public_html/demo/21secawards/lib:.:/opt/alt/php72/usr/share/pear') in /home/n6daidnfj0zu/public_html/demo/21secawards/app/Controller/UsersController.php on line 367
+[24-Mar-2020 12:01:56 America/New_York] PHP Fatal error:  Uncaught FatalErrorException: [CakeSessionException] Unable to configure the session, setting session.use_trans_sid failed.
+#0 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(697): CakeSession::_configureSession()
+#1 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(204): CakeSession::_startSession()
+#2 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(233): CakeSession::start()
+#3 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/Helper/SessionHelper.php(134): CakeSession::check('Message.flash')
+#4 /home/n6daidnfj0zu/public_html/demo/21secawards/app/View/Layouts/error.ctp(44): SessionHelper->flash()
+#5 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(971): include('/home/n6daidnfj...')
+#6 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(933): View->_evaluate('/home/n6daidnfj...', Array)
+#7 /home/n6daidnfj0zu/public_html/demo/21secawa in /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Error/ErrorHandler.php on line 138
+[24-Mar-2020 12:02:38 America/New_York] PHP Fatal error:  Uncaught FatalErrorException: [CakeSessionException] Unable to configure the session, setting session.use_trans_sid failed.
+#0 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(697): CakeSession::_configureSession()
+#1 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(204): CakeSession::_startSession()
+#2 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(233): CakeSession::start()
+#3 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/Helper/SessionHelper.php(134): CakeSession::check('Message.flash')
+#4 /home/n6daidnfj0zu/public_html/demo/21secawards/app/View/Layouts/error.ctp(44): SessionHelper->flash()
+#5 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(971): include('/home/n6daidnfj...')
+#6 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(933): View->_evaluate('/home/n6daidnfj...', Array)
+#7 /home/n6daidnfj0zu/public_html/demo/21secawa in /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Error/ErrorHandler.php on line 138
+[24-Mar-2020 12:07:19 America/New_York] PHP Fatal error:  Uncaught FatalErrorException: [CakeSessionException] Unable to configure the session, setting session.use_trans_sid failed.
+#0 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(697): CakeSession::_configureSession()
+#1 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(204): CakeSession::_startSession()
+#2 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(233): CakeSession::start()
+#3 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/Helper/SessionHelper.php(134): CakeSession::check('Message.flash')
+#4 /home/n6daidnfj0zu/public_html/demo/21secawards/app/View/Layouts/error.ctp(44): SessionHelper->flash()
+#5 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(971): include('/home/n6daidnfj...')
+#6 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(933): View->_evaluate('/home/n6daidnfj...', Array)
+#7 /home/n6daidnfj0zu/public_html/demo/21secawa in /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Error/ErrorHandler.php on line 138
+[27-Mar-2020 10:02:06 America/New_York] PHP Fatal error:  Uncaught FatalErrorException: [CakeSessionException] Unable to configure the session, setting session.use_trans_sid failed.
+#0 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(697): CakeSession::_configureSession()
+#1 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(204): CakeSession::_startSession()
+#2 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Model/Datasource/CakeSession.php(233): CakeSession::start()
+#3 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/Helper/SessionHelper.php(134): CakeSession::check('Message.flash')
+#4 /home/n6daidnfj0zu/public_html/demo/21secawards/app/View/Layouts/error.ctp(44): SessionHelper->flash()
+#5 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(971): include('/home/n6daidnfj...')
+#6 /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/View/View.php(933): View->_evaluate('/home/n6daidnfj...', Array)
+#7 /home/n6daidnfj0zu/public_html/demo/21secawa in /home/n6daidnfj0zu/public_html/demo/21secawards/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Apr-2020 12:06:04 America/New_York] PHP Fatal error:  Call to undefined method WebservicesController::checktoken() in /home/rayaztechnew/public_html/project/dunzo/app/Controller/WebservicesController.php on line 393
+[04-Apr-2020 12:06:05 America/New_York] PHP Fatal error:  Call to undefined method WebservicesController::checktoken() in /home/rayaztechnew/public_html/project/dunzo/app/Controller/WebservicesController.php on line 393
+[04-Apr-2020 12:06:05 America/New_York] PHP Fatal error:  Call to undefined method WebservicesController::checktoken() in /home/rayaztechnew/public_html/project/dunzo/app/Controller/WebservicesController.php on line 393
+[04-Apr-2020 12:06:30 America/New_York] PHP Fatal error:  Call to undefined method WebservicesController::checkusertoken() in /home/rayaztechnew/public_html/project/dunzo/app/Controller/WebservicesController.php on line 112
+[04-Apr-2020 12:06:31 America/New_York] PHP Fatal error:  Call to undefined method WebservicesController::checkusertoken() in /home/rayaztechnew/public_html/project/dunzo/app/Controller/WebservicesController.php on line 112
+[04-Apr-2020 12:06:31 America/New_York] PHP Fatal error:  Call to undefined method WebservicesController::checkusertoken() in /home/rayaztechnew/public_html/project/dunzo/app/Controller/WebservicesController.php on line 112
+[04-Apr-2020 12:06:35 America/New_York] PHP Fatal error:  Call to undefined method WebservicesController::checkusertoken() in /home/rayaztechnew/public_html/project/dunzo/app/Controller/WebservicesController.php on line 948
+[04-Apr-2020 12:11:35 America/New_York] PHP Fatal error:  Call to undefined method WebservicesController::checkusertoken() in /home/rayaztechnew/public_html/project/dunzo/app/Controller/WebservicesController.php on line 948
+[04-Apr-2020 12:11:45 America/New_York] PHP Fatal error:  Call to undefined method WebservicesController::checkusertoken() in /home/rayaztechnew/public_html/project/dunzo/app/Controller/WebservicesController.php on line 948
+[04-Apr-2020 12:11:50 America/New_York] PHP Fatal error:  Call to undefined method WebservicesController::checkusertoken() in /home/rayaztechnew/public_html/project/dunzo/app/Controller/WebservicesController.php on line 948
+[04-Apr-2020 12:11:56 America/New_York] PHP Fatal error:  Call to undefined method WebservicesController::checkusertoken() in /home/rayaztechnew/public_html/project/dunzo/app/Controller/WebservicesController.php on line 948
+[04-Apr-2020 12:12:01 America/New_York] PHP Fatal error:  Call to undefined method WebservicesController::checkusertoken() in /home/rayaztechnew/public_html/project/dunzo/app/Controller/WebservicesController.php on line 948
+[04-Apr-2020 12:12:05 America/New_York] PHP Fatal error:  Call to undefined method WebservicesController::checkusertoken() in /home/rayaztechnew/public_html/project/dunzo/app/Controller/WebservicesController.php on line 948
+[04-Apr-2020 12:12:12 America/New_York] PHP Fatal error:  Call to undefined method WebservicesController::checkusertoken() in /home/rayaztechnew/public_html/project/dunzo/app/Controller/WebservicesController.php on line 948
+[04-Apr-2020 12:12:16 America/New_York] PHP Fatal error:  Call to undefined method WebservicesController::checkusertoken() in /home/rayaztechnew/public_html/project/dunzo/app/Controller/WebservicesController.php on line 948
+[04-Apr-2020 12:28:37 America/New_York] PHP Fatal error:  Call to undefined method WebservicesController::checktoken() in /home/rayaztechnew/public_html/project/dunzo/app/Controller/WebservicesController.php on line 808
+[04-Apr-2020 12:29:14 America/New_York] PHP Fatal error:  Call to undefined method WebservicesController::checktoken() in /home/rayaztechnew/public_html/project/dunzo/app/Controller/WebservicesController.php on line 808
+[04-Apr-2020 12:30:04 America/New_York] PHP Fatal error:  Call to undefined method WebservicesController::checktoken() in /home/rayaztechnew/public_html/project/dunzo/app/Controller/WebservicesController.php on line 638
+[04-Apr-2020 12:31:21 America/New_York] PHP Fatal error:  Call to undefined method WebservicesController::checktoken() in /home/rayaztechnew/public_html/project/dunzo/app/Controller/WebservicesController.php on line 834
+[04-Apr-2020 12:31:29 America/New_York] PHP Fatal error:  Call to undefined method WebservicesController::checktoken() in /home/rayaztechnew/public_html/project/dunzo/app/Controller/WebservicesController.php on line 834
+[04-Apr-2020 12:32:14 America/New_York] PHP Fatal error:  Call to undefined method WebservicesController::checktoken() in /home/rayaztechnew/public_html/project/dunzo/app/Controller/WebservicesController.php on line 834
+[04-Apr-2020 12:37:25 America/New_York] PHP Fatal error:  Cannot redeclare AppController::vendor_path() in /home/rayaztechnew/public_html/project/dunzo/app/Controller/AppController.php on line 712
+[04-Apr-2020 12:44:12 America/New_York] PHP Fatal error:  Call to undefined method WebservicesController::base64_toimage() in /home/rayaztechnew/public_html/project/dunzo/app/Controller/WebservicesController.php on line 643
+[04-Apr-2020 12:44:54 America/New_York] PHP Fatal error:  Call to undefined method WebservicesController::base64_toimage() in /home/rayaztechnew/public_html/project/dunzo/app/Controller/WebservicesController.php on line 643
+[04-Apr-2020 12:47:24 America/New_York] PHP Fatal error:  Cannot redeclare AppController::web_to_server() in /home/rayaztechnew/public_html/project/dunzo/app/Controller/AppController.php on line 366
+[04-Apr-2020 12:47:25 America/New_York] PHP Fatal error:  Cannot redeclare AppController::web_to_server() in /home/rayaztechnew/public_html/project/dunzo/app/Controller/AppController.php on line 366
+[04-Apr-2020 12:47:26 America/New_York] PHP Fatal error:  Cannot redeclare AppController::web_to_server() in /home/rayaztechnew/public_html/project/dunzo/app/Controller/AppController.php on line 366
+[04-Apr-2020 12:47:34 America/New_York] PHP Fatal error:  Cannot redeclare AppController::web_to_server() in /home/rayaztechnew/public_html/project/dunzo/app/Controller/AppController.php on line 366
+[04-Apr-2020 12:47:35 America/New_York] PHP Fatal error:  Cannot redeclare AppController::web_to_server() in /home/rayaztechnew/public_html/project/dunzo/app/Controller/AppController.php on line 366
+[04-Apr-2020 12:47:35 America/New_York] PHP Fatal error:  Cannot redeclare AppController::web_to_server() in /home/rayaztechnew/public_html/project/dunzo/app/Controller/AppController.php on line 366
+[06-Apr-2020 04:48:56 America/New_York] PHP Parse error:  syntax error, unexpected ''' (T_ENCAPSED_AND_WHITESPACE), expecting ']' in /home/rayaztechnew/public_html/project/dunzo/app/Controller/WebservicesController.php on line 1028
+[06-Apr-2020 04:49:17 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/rayaztechnew/public_html/project/dunzo/app/Controller/WebservicesController.php on line 1240
+[18-Apr-2020 14:45:54 UTC] PHP Notice:  Undefined index: Error in /home/rayaztechnew/public_html/project/dunzo/lib/Cake/Core/Configure.php on line 108
+[18-Apr-2020 14:45:54 UTC] PHP Notice:  Undefined index: Exception in /home/rayaztechnew/public_html/project/dunzo/lib/Cake/Core/Configure.php on line 109
+[18-Apr-2020 14:45:54 UTC] PHP Warning:  Unterminated comment starting line 57 in /home/rayaztechnew/public_html/project/dunzo/app/Config/core.php on line 57
+[18-Apr-2020 14:45:54 UTC] PHP Notice:  Undefined index: Exception in /home/rayaztechnew/public_html/project/dunzo/lib/Cake/Core/Configure.php on line 109
+[27-Apr-2020 03:38:39 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/rayaztechnew/public_html/project/dunzo/app/Controller/WebservicesController.php on line 175
+[28-Apr-2020 02:14:58 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/rayaztechnew/public_html/project/dunzo/app/Controller/WebservicesController.php on line 175
+[28-Apr-2020 02:14:58 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/rayaztechnew/public_html/project/dunzo/app/Controller/WebservicesController.php on line 175
+[28-Apr-2020 02:14:59 America/New_York] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home/rayaztechnew/public_html/project/dunzo/app/Controller/WebservicesController.php on line 793
+[28-Apr-2020 02:14:59 America/New_York] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home/rayaztechnew/public_html/project/dunzo/app/Controller/WebservicesController.php on line 793
+[28-Apr-2020 02:15:00 America/New_York] PHP Parse error:  syntax error, unexpected ''Productvariation.variation_i', expecting ')' in /home/rayaztechnew/public_html/project/dunzo/app/Controller/WebservicesController.php on line 2000
+[28-Apr-2020 02:18:24 America/New_York] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home/rayaztechnew/public_html/project/dunzo/app/Controller/WebservicesController.php on line 1699
+[28-Apr-2020 02:18:24 America/New_York] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home/rayaztechnew/public_html/project/dunzo/app/Controller/WebservicesController.php on line 2201
+[28-Apr-2020 12:54:22 Asia/Kolkata] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home/rayaztechnew/public_html/project/dunzo/app/Controller/WebservicesController.php on line 1655
+[20-Jul-2020 21:51:41 Asia/Kolkata] PHP Fatal error:  Cannot use empty array elements in arrays in /home/n6daidnfj0zu/public_html/demo/qrice/app/Controller/WebservicesController.php on line 675
+[26-Feb-2021 15:55:09 Asia/Kolkata] PHP Fatal error:  Cannot use [] for reading in /home/d0ade2uhlfhs/public_html/app/Controller/SitesettingsController.php on line 33

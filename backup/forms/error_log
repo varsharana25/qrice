@@ -1,0 +1,4 @@
+[15-Dec-2020 08:48:04 UTC] PHP Notice:  Undefined variable: form in /home/vm7b72gdsbih/public_html/r024k/QRice/forms/contact.php on line 60
+[15-Dec-2020 09:45:22 UTC] PHP Parse error:  syntax error, unexpected '"Enquiry from QRice.com"' (T_CONSTANT_ENCAPSED_STRING) in /home/vm7b72gdsbih/public_html/r024k/QRice/forms/contact.php on line 64
+[15-Dec-2020 09:45:49 UTC] PHP Parse error:  syntax error, unexpected '"Enquiry from QRice.com"' (T_CONSTANT_ENCAPSED_STRING) in /home/vm7b72gdsbih/public_html/r024k/QRice/forms/contact.php on line 64
+[15-Dec-2020 09:46:10 UTC] PHP Parse error:  syntax error, unexpected '"Enquiry from QRice.com"' (T_CONSTANT_ENCAPSED_STRING) in /home/vm7b72gdsbih/public_html/r024k/QRice/forms/contact.php on line 64
